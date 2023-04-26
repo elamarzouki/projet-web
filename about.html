@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Praise&family=Redressed&family=Source+Code+Pro&family=Spartan&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'spartan', sans-serif;
+        }
+        
+        .section-p1 {
+            padding: 50px;
+        }
+        
+        body {
+            background: #b5dbd9;
+        }
+        
+        body h1 {
+            background-color: #088178;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        
+        #aboutus {
+            display: flex;
+            justify-content: baseline;
+        }
+        
+        .img-seif {
+            display: flex;
+            flex-wrap: nowrap;
+            background-image: url('images/271311910_1564358927293945_3964395669881181365_n.jpg');
+            width: 500px;
+            height: 50vh;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #000;
+            border-radius: 50px;
+            box-shadow: #088178;
+            margin: 60px 50px;
+        }
+        
+        .img-wissem {
+            display: flex;
+            flex-wrap: nowrap;
+            background-image: url('images/272847530_1018879632061680_1319717998827464919_n.png');
+            width: 500px;
+            height: 50vh;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #000;
+            border-radius: 50px;
+            box-shadow: #088178;
+            margin: 60px 200px;
+        }
+        
+        #aboutus .pseif {
+            height: 20vh;
+            width: 500px;
+            justify-content: center;
+            border: 1px solid #041e42;
+            border-radius: 10px;
+            margin-left: 50px;
+        }
+        
+        #aboutus .pwissem {
+            height: 20vh;
+            width: 500px;
+            justify-content: center;
+            border: 1px solid #041e42;
+            border-radius: 10px;
+            margin-left: 200px;
+        }
+        
+        #newsletter {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            background-image: url("images/img/banner/b14.png");
+            background-repeat: no-repeat;
+            background-position: 20% 30%;
+            background-color: #041e42;
+        }
+        
+        #newsletter h4 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #fff;
+        }
+        
+        #newsletter p {
+            font-size: 14px;
+            font-size: 600;
+            color: #818ea0;
+        }
+        
+        #newsletter p span {
+            color: #ffbd27;
+        }
+        
+        #newsletter .form {
+            display: flex;
+            width: 40%;
+        }
+        
+        #newsletter input {
+            height: 3.125rem;
+            padding: 0 1.25em;
+            font-size: 14px;
+            width: 100%;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            outline: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        
+        #newsletter button {
+            background-color: #088178;
+            color: #fff;
+            white-space: nowrap;
+            height: 50px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .col h2 {
+            font-family: 'Praise', cursive;
+            font-size: 35px;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background-color: #088178;
+        }
+        
+        footer .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        
+        footer .logo {
+            margin-bottom: 30px;
+        }
+        
+        footer h4 {
+            font-size: 14px;
+            padding-bottom: 20px;
+        }
+        
+        footer p {
+            font-size: 13px;
+            margin: 0 0 8px 0;
+        }
+        
+        footer a {
+            font-size: 13px;
+            text-decoration: none;
+            color: #222;
+            margin-bottom: 10px;
+        }
+        
+        footer .follow {
+            margin-top: 20px;
+        }
+        
+        footer .follow i {
+            color: #465b52;
+            padding-right: 4px;
+            cursor: pointer;
+        }
+        
+        footer .install .row img {
+            border: 1px solid #088178;
+            border-radius: 6px;
+        }
+        
+        footer .install img {
+            margin: 10px 0 15px 0;
+        }
+        
+        footer .follow i:hover,
+        footer a:hover {
+            color: #088178;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="home.html">
+            <h2>-PRESTIGE-</h2>
+        </a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a class="active" href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <h1>About Us</h1>
+    <section id="aboutus">
+
+        <div class="seif">
+            <div class="img-seif">
+            </div>
+            <p class="pseif"> seif eddine rezgui , 22ans , etudiant a esprit (ecole superieur prive des ingenieurs tunisie ),fondateur de la marque presige et le createur de ce site web </p>
+        </div>
+        <div class="wissem">
+            <div class="img-wissem">
+            </div>
+            <p class="pwissem"> wissem cherni , 22ans , etudiant a esprit (ecole superieur prive des ingenieurs tunisie ),fondateur de la marque presige et le createur de ce site web </p>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <a href="account.html"><button class="normal">Sign In</button></a>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <h2 class="logo">-PRESTIGE-</h2>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> cite ghazela ,ariana ,tunisie </p>
+            <p><strong>Phone:</strong> +216 52 262 086</p>
+            <p><strong>Hours:</strong> 9:00-20:00 , Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">about us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install appt</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/img/pay/app.jpg" alt="">
+                <img src="images/img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/img/pay/pay.png" alt="">
+        </div>
+
+    </footer>
+</body>
+
+</html>
